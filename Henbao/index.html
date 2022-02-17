@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <span style="font-size: 1.1em; position: relative; bottom: 1em; left: 4.5em; z-index: 100;">HenBao</span>
+    <i style="position: relative; color: #F59A57; border: 2px dotted darkblue;" class="fa-solid fa-burger fa-5x"></i>
+    <h2 style="font-size: 4em;" class="text-center ">選擇菜單</h1>
+    <div id="img-wrapper">
+        <img class="imgs" src="20190508142204-10018216515cd258431fcb5-p01.jpg" alt=""><h1 style="position: absolute; color: #E85331;">厚切牛肉</h1>
+        <img class="imgs" src="20190508143840-13300850785cd27908d8107-p01.jpg" alt=""><h1 style="position: absolute; color: #E85331;">香烤雞肉</h1>
+        <img class="imgs" src="20190508144020-15120519595cd2797551bca-p01.jpg" alt=""><h1 style="position: absolute; color: #E85331;">原汁鮪魚</h1>
+        <img class="imgs" src="20190514151559-12749542655cd39ad18a2a3-p01.jpg" alt=""><h1 style="position: absolute; color: #E85331;">沙拉總匯</h1>
+        <img class="imgs" src="20200617171035-10540699225ee9ddafa28b5-p01.jpg" alt=""><h1 style="position: absolute; color: #E85331;">活力鮮蝦</h1>
+        <button id="prev"><i style="position: absolute; top: 45%; left: 0;" class="fa-solid fa-circle-arrow-left fa-2x"></i></button>
+        <button id="next"><i style="position: absolute; top: 45%; right: 0;" class="fa-solid fa-circle-arrow-right fa-2x"></i></button>
+        <button class="dot"><i style="position: absolute; bottom: 0.1vw; left: 40%;" class="fa-solid fa-circle"></i></button>
+        <button class="dot"><i style="position: absolute; bottom: 0.1vw; left: 45%;" class="fa-solid fa-circle"></i></button>
+        <button class="dot"><i style="position: absolute; bottom: 0.1vw; left: 50%;" class="fa-solid fa-circle"></i></button>
+        <button class="dot"><i style="position: absolute; bottom: 0.1vw; left: 55%;" class="fa-solid fa-circle"></i></button>
+        <button class="dot"><i style="position: absolute; bottom: 0.1vw; left: 60%;" class="fa-solid fa-circle"></i></button>
+    </div>
+    <a id="deliv" href=""><h2 style=" font-size: 4em; margin-top: 10vw;" class="text-center ">前往外送</h1></a>
+    <div class="grid-container">
+        <div class="grid-item1"><button id="region1">預訂快取</button></div>
+        <div class="grid-item2"><button id="region2">零接觸外送</button></div>
+        <div class="grid-item3">依縣市尋找地址:</div>
+        <div class="grid-item4">
+            <select style="width: 100%;" name="select" id="">
+                <option value="">請選擇</option>
+                <option value="">基隆市</option>
+                <option value="">台北市</option>
+                <option value="">新北市</option>
+                <option value="">桃園市</option>
+                <option value="">新竹市</option>
+                <option value="">苗栗縣</option>
+                <option value="">新竹縣</option>
+                <option value="">台中市</option>
+                <option value="">彰化縣</option>
+                <option value="">南投縣</option>
+                <option value="">雲林縣</option>
+                <option value="">嘉義市</option>
+                <option value="">嘉義縣</option>
+                <option value="">台南市</option>
+                <option value="">高雄市</option>
+                <option value="">屏東縣</option>
+                <option value="">宜蘭縣</option>
+                <option value="">花蓮縣</option>
+                <option value="">台東縣</option>
+            </select>
+        </div>
+        <div class="grid-item7"><input style="padding: 1em; margin-top: 2em; width: 100%;" type="text" placeholder="請輸入完整外送地址"></div>
+        <div class="grid-item5"><buttonid="pos">使用我的位置</button></div>
+        <div class="grid-item6"><a style="text-decoration: none;" href="index1.html">前往訂餐</a></div>
+    </div>
+</body>
+</html>
